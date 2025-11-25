@@ -217,7 +217,7 @@ const Navbar = ({ cartCount, onOpenCart }) => {
               src="src\assets\logo.jpg" 
               alt="Naavik Logo" 
               className="object-cover w-full h-full"
-              onError={(e) => {e.target.onerror = null; e.target.src = "https://placehold.co/100x100?text=Naavik"}}
+              onError={(e) => {e.target.onerror = null; e.target.src = "src\assets\logo.jpg"}}
             />
           </div>
           <div className="flex flex-col">
