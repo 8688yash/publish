@@ -401,7 +401,7 @@ const App = () => {
                 <div className="relative w-full h-full rounded-r-2xl shadow-[20px_20px_60px_rgba(0,0,0,0.15)] transform rotate-y-[-12deg] rotate-x-[5deg] group-hover:rotate-y-[0deg] transition-transform duration-700 bg-white border-l-4 border-slate-200">
                    {/* BOOK COVER IMAGE PLACEHOLDER */}
                    <img 
-                     src="src\assets\naavik.png" 
+                     src="/images/naavik.png" 
                      alt="Book Mockup" 
                      className="w-full h-full object-cover rounded-r-xl"
                      onError={(e) => {e.target.onerror = null; e.target.src = "https://placehold.co/360x540?text=Book+Cover"}}
